@@ -66,7 +66,7 @@ const team = [
     name: 'Muhammad Khubaib',
     role: 'DevOps Engineer',
     expertise: 'Cloud, Security',
-    image: '12.jpg',
+    image: '/12.jpg',
     color: 'from-cyan-500 to-blue-500'
   }
 ];

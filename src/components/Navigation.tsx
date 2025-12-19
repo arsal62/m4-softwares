@@ -28,7 +28,7 @@ const Navigation: React.FC = () => {
       <div className="flex items-center space-x-3">
         <img
           src="/Leonardo_Lightning_XL_Create_a_modern_futuristic_3D_logo_for_a_0.jpg"
-          alt="M Cube Logo"
+          alt="M4 Softwares Logo"
           className="w-10 h-10 object-cover rounded-full"
         />
         <div className="text-2xl font-bold bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">
@@ -89,9 +89,9 @@ const Navigation: React.FC = () => {
                 <Phone className="w-4 h-4 mr-2" />
                 <span>+923362159777</span>
               </a>
-              <a href="mailto:musabkhan703@mail.com" className="flex items-center text-gray-300 hover:text-blue-400 px-3 py-2 transition-colors">
+              <a href="mailto:tech@m4softwares.com" className="flex items-center text-gray-300 hover:text-blue-400 px-3 py-2 transition-colors">
                 <Mail className="w-4 h-4 mr-2" />
-                <span>musabkhan703@gmail.com</span>
+                <span>tech@m4softwares.com</span>
               </a>
             </div>
           </div>

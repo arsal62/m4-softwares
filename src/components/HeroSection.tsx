@@ -75,7 +75,7 @@ const HeroSection: React.FC = () => {
             <div className="relative transform-gpu perspective-1000 hover:scale-110 transition-transform duration-700">
               <img 
                 src="/Adobe Express - file.png"
-                alt="M cube Logo"
+                alt="M4 Softwares - Technology Solutions Company Logo"
                 className="w-full h-full object-contain filter drop-shadow-2xl bg-transparent"
                 style={{
                   filter: 'drop-shadow(0 0 30px rgba(59, 130, 246, 0.5)) drop-shadow(0 0 60px rgba(147, 51, 234, 0.3))',
