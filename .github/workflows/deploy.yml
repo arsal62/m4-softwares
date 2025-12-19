@@ -28,14 +28,12 @@ jobs:
         with:
           node-version: '20'
           cache: 'npm'
-          cache-dependency-path: M_cube-technologies/package-lock.json
+          cache-dependency-path: package-lock.json
       
       - name: Install dependencies
-        working-directory: ./M_cube-technologies
         run: npm ci
       
       - name: Build
-        working-directory: ./M_cube-technologies
         env:
           GITHUB_PAGES: 'true'
           VITE_BASE_PATH: /${{ github.event.repository.name }}/
@@ -47,7 +45,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: './M_cube-technologies/dist'
+          path: './dist'
 
   deploy:
     environment:
